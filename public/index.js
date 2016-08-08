@@ -20,7 +20,7 @@
 };
 
 let data = { width: screen.width, height: screen.height };
-post("/", data).then(function(response) {
+post("/logger", data).then(function(response) {
   console.log("Success!", response);
 }, function(error) {
   console.error("Failed!", error);
