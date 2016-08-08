@@ -1,0 +1,27 @@
+{
+  "name": "shri-2016-task6",
+  "version": "1.0.0",
+  "description": "Выдача картинки нужного разрешения на основе разрешения монитора пользователя",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reindeers/shri-2016-task6.git"
+  },
+  "keywords": [
+    "image"
+  ],
+  "author": "reindeers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reindeers/shri-2016-task6/issues"
+  },
+  "homepage": "https://github.com/reindeers/shri-2016-task6#readme",
+  "devDependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  }
+}
