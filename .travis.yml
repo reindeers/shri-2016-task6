@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '6'
+deploy:
+  provider: heroku
+  app: calm-hollows-69731
+  api_key:
+    secure: Ho5F8ddvDnis1sP1B4R8GqfQ+PXJTCq9KUe+7iXHtx5mcyTzwxX/7BRKiGQ/4b1GhwQmoSiOO1h/Rr5Ihp2ntmuIAOdgJBi7/IcRgQzIfhuwLaMO9hcd+HPsnAC5KDIN4vMAyzNCGAFU6n9zE9YzkhCKqHyo7oZTx0SS83Y7Qf4iIkNzLoMtpVs+dk8HxKnIG0yrTU1TS7kU0KA6JJThKOTJsKYbDWDDpkyEehworXK/sJrh4jC1mL8NTj5zc5+lrzGe2lEfJWLYUEuQRbq5+UkXZS6pfwlJEn9F1l0AaKjj0wMNT1zYag+0/mU+HlwcxINehSXYogQnSwtxto+K7wQjd/PGAgqJzuXBBO5Ut5dBmhgqTvRekGZBdDyGnP99akmXISfK0AzMahIe327WL/5JUUuZ0NWY+ifciHYnzrbfjetUPFKe1T8jv5oF14yKSHhwlXSUMKiWbjYy+9KU5kvIIBiPcVuPXaeucfQvajxfK4hITp3j0vqwAbvasaX0UVf1pIcDTkgKx/ZjG/02fpHCt/Sx+OLVn+fO0n7PzmGOkPZCdZ5FAf7vH3RmkEdT1gYz8gF5r8jBvxZ1Hf/O5nOJqhq5sa65kgpZeTOc07JNKs+v6Wx6tRpA/kMXpFt1j8WQeGG5zQ62vgizEt87Cq9RAxuLP4StommYBTU5GqU=
