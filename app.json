@@ -1,0 +1,16 @@
+{
+  "name": "shri-2016-task6",
+  "description": "Выбор картинки на основе разрешения монитора пользователя",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
