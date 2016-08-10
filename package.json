@@ -6,7 +6,7 @@
   "scripts": {
     "heroku:create-hosting": "heroku create",
     "heroku:deploy": "git push heroku +master",
-    "test": "eslint .",
+    "test": "eslint . && mocha test",
     "start": "node server.js"
   },
   "repository": {
@@ -27,15 +27,18 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
+    "babel": "^6.5.2",
+    "chai": "^3.5.0",
     "eslint": "^3.2.2",
     "eslint-config-google": "^0.6.0",
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-import": "^1.12.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
     "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.0"
+    "eslint-plugin-standard": "^2.0.0",
+    "mocha": "^3.0.2"
   },
-    "eslintConfig": {
-        "extends": "google"
-    }
+  "eslintConfig": {
+    "extends": "google"
+  }
 }
