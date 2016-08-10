@@ -11,7 +11,7 @@ function post (url, data) {
     };
     req.send();
   });
-};
+}
 
 let data = { width: screen.width, height: screen.height };
 post('/logger', data).then(function (response) {

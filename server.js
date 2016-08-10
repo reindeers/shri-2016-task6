@@ -15,9 +15,9 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-    console.time('render');
-    response.render('index', { img: getImg });
-    console.timeEnd('render');
+  console.time('render');
+  response.render('index', { img: getImg });
+  console.timeEnd('render');
 });
 
 // Server side - example is an Express controller
@@ -33,8 +33,8 @@ exports.logger = function(req, res) {
   };
   console.log(user);
   res.end();
-}
+};
 
 app.listen(app.get('port'), function() {
-    console.log('Images on port', app.get('port'));
+  console.log('Images on port', app.get('port'));
 });
