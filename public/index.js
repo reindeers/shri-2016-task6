@@ -11,7 +11,7 @@ function get (url) {
     };
     req.send();
   });
-};
+}
 
 get('/?width=' + screen.width + '&height=' + screen.height).then(function (response) {
   console.log('Success!', response);
