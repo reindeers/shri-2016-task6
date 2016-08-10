@@ -4,7 +4,6 @@
   "description": "Выдача картинки нужного разрешения на основе разрешения монитора пользователя",
   "main": "server.js",
   "scripts": {
-    "heroku:deploy": "git push heroku +master",
     "test": "eslint .",
     "start": "node server.js"
   },
