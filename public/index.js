@@ -1,7 +1,7 @@
-function post (url, data) {
+function get (url) {
   return new Promise(function (resolve, reject) {
     let req = new XMLHttpRequest();
-    req.open('POST', url, data);
+    req.open('GET', url);
     req.onload = function () {
       if (req.status === 200) resolve(req.response);
       else reject(Error(req.statusText));
@@ -11,10 +11,9 @@ function post (url, data) {
     };
     req.send();
   });
-}
+};
 
-let data = { width: screen.width, height: screen.height };
-post('/logger', data).then(function (response) {
+get('/?width=' + screen.width + '&height=' + screen.height).then(function (response) {
   console.log('Success!', response);
 }, function (error) {
   console.error('Failed!', error);
