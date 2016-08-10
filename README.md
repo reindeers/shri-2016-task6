@@ -1,6 +1,20 @@
 [![Build Status](https://travis-ci.org/reindeers/shri-2016-task6.svg?branch=master)](https://travis-ci.org/reindeers/shri-2016-task6)
 [![bitHound Overall Score](https://www.bithound.io/github/reindeers/shri-2016-task6/badges/score.svg)](https://www.bithound.io/github/reindeers/shri-2016-task6)
 
+Приложение можно посмотреть по [ссылке](https://calm-hollows-69731.herokuapp.com)
+В зависимости от разрешения монитора пользователя, выдает первую или вторую картинку. Баг: выдает только после перезагрузки страницы браузера.
+
+Сделано все, кроме реализации тестов (об этом ниже) и готовности к pull request.
+
+В логи пишет:
+* скорость рендеринга страницы
+* скорость разбора пришедшего на сервер запроса
+
+По npm test запускается проверка eslint и mocha. Тестов для mocha нет, там закомменченный файл, почему-то у меня не получается их поднять, ругается на функцию getImage, если у вас будет возможность, было бы здорово узнать, почему.
+
+#Uptime robot:
+![см. скриншот](uptimerobot.JPG) 
+
 # Логи heroku
 
 ### Все логи делятся на три категории
